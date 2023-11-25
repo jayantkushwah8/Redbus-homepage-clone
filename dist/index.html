@@ -8,42 +8,81 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="">
-    <nav class="flex fixed">
-        <span class="ml-40 mr-10 p-7" style="display: inline-block;">
+<body class="m-0 p-0">
+    <nav class="flex">
+        <span class="w-[5rem]" style="margin: 4vh 5vw 3vh 10vw;">
             <img class="" src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="logo">
         </span>
-        <div class="" style="display: inline-block;">
+        <span class="">
             <ul class="flex space-x-9 p-7 ">
                 <li>
                     <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="Online Bus Tickets Booking"
                         title="Online Bus Tickets Booking">
-                        <span>Bus Tickets</span>
+                    <span>Bus Tickets</span>
                 </li>
                 <li>
-                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" alt="Online Cab Booking" title="Online Cab Booking">
+                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg"
+                        alt="Online Cab Booking" title="Online Cab Booking">
                     <span>Cab Rental</span>
                 </li>
                 <li>
-                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg" alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
+                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg"
+                        alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
                     <span>Train Tickets</span>
                 </li>
             </ul>
-        </div>
-        <span class="ml-80 p-7" >
+        </span>
+        <span class="ml-96 p-7">
             <ul class="flex space-x-10">
                 <li class="flex">
-                    <img src="https://www.svgrepo.com/show/409135/headphone-alt.svg" alt="" class="w-4">
-                    <span>Help</span>
+                    <img src="https://www.svgrepo.com/show/361411/account.svg" alt="" class="w-4">
+                    <span class="m-2">Help</span>
                 </li>
                 <li class="flex">
                     <img src="https://www.svgrepo.com/show/456992/account.svg" alt="" class="w-4">
-                    <span>Account</span>
-                    <img class="w-4" src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="">
+                    <span class="m-2">Account</span>
+                    <img class="w-4 m-[-0.5rem]" src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="">
                 </li>
             </ul>
         </span>
+
     </nav>
+    <div class="h-[70vh] w-[100%] bg-no-repeat overflow-hidden"
+        style="background-image: url('https://st.redbus.in/Images/HomeIndia/HeroImage.png');">
+        <h1 class="flex justify-center text-4xl font-bold text-white mt-16">India's No. 1 Online Bus Ticket Booking Site
+        </h1>
+        <div class="flex justify-center mt-9">
+            <div class="w-20 bg-white flex items-center justify-center  rounded-l-3xl">
+                <img class="w-6" src="https://www.svgrepo.com/show/86336/bus.svg" alt="">
+            </div>
+            <div>
+                <!-- <label for="">From</label> -->
+                <input class="h-[6.5rem] placeholder:text-xl placeholder:text-black " type="text" placeholder="From">
+            </div>
+            <div class="w-20 bg-white flex items-center justify-center border">
+                <img class="w-6 "
+                    src="https://www.svgrepo.com/show/343623/sign-direction-go-move-navigation-back-forward.svg" alt="">
+            </div>
+            <div class="w-20 bg-white flex items-center justify-center">
+                <img class="w-6" src="https://www.svgrepo.com/show/86336/bus.svg" alt="">
+            </div>
+            <div>
+                <!-- <label for="To"></label> -->
+                <input class="border-r h-[6.5rem] placeholder:text-xl placeholder:text-black " type="text" placeholder="To">
+            </div>
+            <div class=" w-20 bg-white flex items-center justify-center">
+                <img class="w-6" src="https://www.svgrepo.com/show/502605/date-range.svg" alt="">
+            </div>
+            <div>
+                <!-- <label for="">Date</label> -->
+                <input class="h-[6.5rem] placeholder:text-xl placeholder:text-black " type="type" placeholder="Date" >
+            </div>
+            <div>
+                <button class="h-[6.5rem] bg-red-500 text-white w-60 rounded-r-3xl text-xl font-bold">SEARCH BUSES</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
