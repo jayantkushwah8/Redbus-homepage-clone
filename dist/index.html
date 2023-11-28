@@ -9,80 +9,132 @@
 </head>
 
 <body class="m-0 p-0">
-    <nav class="flex">
-        <span class="w-[5rem]" style="margin: 4vh 5vw 3vh 10vw;">
-            <img class="" src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="logo">
-        </span>
-        <span class="">
-            <ul class="flex space-x-9 p-7 ">
-                <li>
-                    <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="Online Bus Tickets Booking"
-                        title="Online Bus Tickets Booking">
-                    <span>Bus Tickets</span>
-                </li>
-                <li>
-                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg"
-                        alt="Online Cab Booking" title="Online Cab Booking">
-                    <span>Cab Rental</span>
-                </li>
-                <li>
-                    <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg"
-                        alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
-                    <span>Train Tickets</span>
-                </li>
-            </ul>
-        </span>
-        <span class="ml-96 p-7">
-            <ul class="flex space-x-10">
-                <li class="flex">
-                    <img src="https://www.svgrepo.com/show/361411/account.svg" alt="" class="w-4">
-                    <span class="m-2">Help</span>
-                </li>
-                <li class="flex">
-                    <img src="https://www.svgrepo.com/show/456992/account.svg" alt="" class="w-4">
-                    <span class="m-2">Account</span>
-                    <img class="w-4 m-[-0.5rem]" src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="">
-                </li>
-            </ul>
-        </span>
+    <!-- navbar starts here  -->
+    <div class="sticky">
+        <div class="flex">
+            <!-- redbus logo  -->
+            <span class="w-[5rem]" style="margin: 4vh 5vw 3vh 10vw;">
+                <img class="" src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="logo">
+            </span>
+            <!-- navbar options  -->
+            <span class="">
+                <ul class="flex space-x-9 p-7 ">
+                    <li>
+                        <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg"
+                            alt="Online Bus Tickets Booking" title="Online Bus Tickets Booking">
+                        <span>Bus Tickets</span>
+                    </li>
+                    <li>
+                        <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/ryde_vertical.svg"
+                            alt="Online Cab Booking" title="Online Cab Booking">
+                        <span>Cab Rental</span>
+                    </li>
+                    <li>
+                        <img class="img_rb_vertical" src="https://st.redbus.in/web/images/layout/rail_vertical.svg"
+                            alt="Online Train Tickets Booking" title="Online Train Tickets Booking">
+                        <span>Train Tickets</span>
+                    </li>
+                </ul>
+            </span>
+            <!-- help and account options  -->
+            <span class="ml-96 p-7">
+                <ul class="flex space-x-10">
+                    <li class="flex">
+                        <img src="https://www.svgrepo.com/show/361411/account.svg" alt="" class="w-4">
+                        <span class="m-2">Help</span>
+                    </li>
+                    <li class="flex">
+                        <img src="https://www.svgrepo.com/show/456992/account.svg" alt="" class="w-4">
+                        <span class="m-2">Account</span>
+                        <img class="w-4 m-[-0.5rem]" src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="">
+                    </li>
+                </ul>
+            </span>
+        </div>
+    </div>
+    <!-- navbar ends here  -->
 
-    </nav>
-    <div class="h-[70vh] w-[100%] bg-no-repeat overflow-hidden"
+    <!-- main section starts here -->
+
+    <div class="h-[70vh] w-[100%]  bg-no-repeat overflow-hidden "
         style="background-image: url('https://st.redbus.in/Images/HomeIndia/HeroImage.png');">
+        <!-- heading  -->
         <h1 class="flex justify-center text-4xl font-bold text-white mt-16">India's No. 1 Online Bus Ticket Booking Site
         </h1>
+        <!-- search bar starts here -->
         <div class="flex justify-center mt-9">
+
+            <!-- from  -->
             <div class="w-20 bg-white flex items-center justify-center  rounded-l-3xl">
                 <img class="w-6" src="https://www.svgrepo.com/show/86336/bus.svg" alt="">
             </div>
             <div>
-                <!-- <label for="">From</label> -->
-                <input class="h-[6.5rem] placeholder:text-xl placeholder:text-black " type="text" placeholder="From">
+                <input class="h-[6.5rem] w-40 placeholder:text-xl placeholder:text-black " type="text"
+                    placeholder="From">
             </div>
+
+            <!-- switch svg  -->
             <div class="w-20 bg-white flex items-center justify-center border">
                 <img class="w-6 "
                     src="https://www.svgrepo.com/show/343623/sign-direction-go-move-navigation-back-forward.svg" alt="">
             </div>
+
+            <!-- to  -->
             <div class="w-20 bg-white flex items-center justify-center">
                 <img class="w-6" src="https://www.svgrepo.com/show/86336/bus.svg" alt="">
             </div>
             <div>
-                <!-- <label for="To"></label> -->
-                <input class="border-r h-[6.5rem] placeholder:text-xl placeholder:text-black " type="text" placeholder="To">
+                <input class="border-r h-[6.5rem] placeholder:text-xl placeholder:text-black " type="text"
+                    placeholder="To">
             </div>
+
+            <!-- date  -->
             <div class=" w-20 bg-white flex items-center justify-center">
                 <img class="w-6" src="https://www.svgrepo.com/show/502605/date-range.svg" alt="">
             </div>
             <div>
-                <!-- <label for="">Date</label> -->
-                <input class="h-[6.5rem] placeholder:text-xl placeholder:text-black " type="type" placeholder="Date" >
+                <input class="h-[6.5rem] placeholder:text-xl placeholder:text-black " type="type" placeholder="Date">
             </div>
+
+            <!-- search  button -->
             <div>
-                <button class="h-[6.5rem] bg-red-500 text-white w-60 rounded-r-3xl text-xl font-bold">SEARCH BUSES</button>
+                <button class="h-[6.5rem] bg-red-500 text-white w-60 rounded-r-3xl text-xl font-bold">SEARCH
+                    BUSES</button>
+            </div>
+            <!-- search bar ends here  -->
+
+        </div>
+
+    </div>
+
+    <!-- offer section starts here  -->
+    <div class="flex justify-center">
+        <div class=" h-96 w-3/4 bg-white relative bottom-20 rounded-3xl">
+            <!-- heading  -->
+            <h1 class="m-7 text-3xl my-10 inline-block">TRENDING OFFERS</h1>
+            <button class="relative left-[42vw] border-2 text-blue-900 px-4 py-2 text-xl font-bold rounded-3xl">View All</button>
+            <!-- div for offers  -->
+            <div class="m-7 flex text-white space-x-5 rounded">
+
+                <div class="bg-blue-500 rounded-2xl h-40 w-96 flex items-center justify-center" style="background-color: rgb(71, 71, 171);">
+                    <img class="w-20 h-20 rounded-full my-7 mx-3" src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png" alt="">
+                    <p>Save up to Rs 250 on <br> bus tickets</p>
+                </div>
+                <div class="bg-red-600 rounded-2xl h-40 w-96 flex items-center justify-center">
+                    <img class="w-20 h-20 rounded-full my-7 mx-3" src="https://st.redbus.in/Images/INDOFFER/80x80/SUPERHIT.png" alt="">
+                    <p>Save up to Rs 300 on <br> AP, TS routes</p>
+                </div>
+                <div class="bg-green-600 rounded-2xl  h-40 w-96 flex items-center justify-center">
+                    <img class="w-20 h-20 rounded-full my-7 mx-3" src="https://st.redbus.in/Images/INDOFFER/80x80/BUS300.png" alt="">
+                    <p>Save up to Rs 300 on <br> RJ , MH , GOA , MP routes</p>
+                </div>
+                <div class="bg-blue-300 rounded-2xl  h-40 w-96 flex items-center justify-center">
+                    <img class="w-20 h-20 rounded-full my-7 mx-3" src="https://st.redbus.in/Images/INDOFFER/80x80/BUS300.png" alt="">
+                    <p>Save up to Rs 300 on <br> RJ , MH , GOA , MP routes</p>
+                </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
